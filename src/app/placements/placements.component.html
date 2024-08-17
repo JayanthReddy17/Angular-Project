@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MBU Placements</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #0e0d0d;
+    }
+    .container {
+      background-color: #bdb8b8; 
+      border-radius: 8px; 
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+      width: 500px;
+    }
+    h1 {
+      color: #333; /* Darker text color for the header */
+      font-size: 2rem; /* Larger font size for the header */
+    }
+    .form-group label {
+      font-weight: bold; /* Bold text for labels */
+    }
+    .form-check-label {
+      margin-left: 5px; /* Space between radio button and label text */
+    }
+    .btn-primary {
+      background-color: #007bff; /* Primary button background color */
+      border-color: #007bff; /* Border color to match the button */
+    }
+    .btn-primary:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      border-color: #004085; /* Darker border on hover */
+    }
+    .form-control {
+      border-radius: 4px; /* Rounded corners for the text area */
+    }
+    .form-control:focus {
+      box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow color */
+      border-color: #007bff; /* Focus border color */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="mb-4">MBU PLACEMENTS</h1>
+
+  <form action="/action_page.php">
+    <div class="form-group">
+      <p>Please select your Interested Company:</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="google" name="fav_language" value="Google">
+        <label class="form-check-label" for="google">
+          GOOGLE
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="ibm" name="fav_language" value="IBM">
+        <label class="form-check-label" for="ibm">
+          IBM
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="microsoft" name="fav_language" value="MICROSOFT">
+        <label class="form-check-label" for="microsoft">
+          MICROSOFT
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputText">Enter LPA:</label>
+      <input type="text" class="form-control" id="exampleInputText" placeholder="enter value">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
