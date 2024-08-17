@@ -7,9 +7,8 @@ import { NgForm } from '@angular/forms';
   styleUrl: './marks.component.css'
 })
 export class MarksComponent {
-  // ... other class properties and methods
 
-  SaveForm(formData: any) {
-    // Your form submission logic here
+  SaveForm(myform: any):void {
+     console.log(myform)
   }
 }
